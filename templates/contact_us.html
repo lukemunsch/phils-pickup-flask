@@ -11,11 +11,11 @@
     <body>
         <nav>
             <ul>
-                <li>
+                <>
                     <li>
-                        <a href="#">Home</a>
-                        <a href="#">Services</a>
-                        <a href="#" active>Contact Us</a>
+                        <a href="{{ url_for('index') }}">Home</a> | 
+                        <a href="{{ url_for('services') }}">Services</a> | 
+                        <a href="{{ url_for('contact_us') }}">Contact Us</a>
                     </li>
                 </li>
             </ul>

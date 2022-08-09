@@ -13,9 +13,9 @@
             <ul>
                 <li>
                     <li>
-                        <a href="#">Home</a>
-                        <a href="#" active>Services</a>
-                        <a href="#">Contact Us</a>
+                        <a href="{{ url_for('index') }}">Home</a> | 
+                        <a href="{{ url_for('services') }}">Services</a> | 
+                        <a href="{{ url_for('contact_us') }}">Contact Us</a>
                     </li>
                 </li>
             </ul>
