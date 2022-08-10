@@ -1,25 +1,8 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <title>Phil's Pickup - Motorbike Transport</title>
-    <meta
-      name="description"
-      content="Motorbike, trike and quad transport across the UK"
-    />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="stylesheet" href="" />
-  </head>
-  <body>
-    <nav>
-      <ul>
-        <li>
-          <a href="{{ url_for('index') }}">Home</a> |
-          <a href="{{ url_for('services') }}">Services</a> |
-          <a href="{{ url_for('contact_us') }}">Contact Us</a>
-        </li>
-      </ul>
-    </nav>
-  </body>
-</html>
+{% extends 'base.html' %}
+
+{% block content %}
+<h1>Services Page</h1>
+
+
+
+{% endblock %}
