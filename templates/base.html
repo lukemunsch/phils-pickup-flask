@@ -4,16 +4,18 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    
+
     <title>Phil's Pickup - Motorbike Transport</title>
     <meta
       name="description"
       content="Motorbike, trike and quad transport across the UK"
     />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="stylesheet" href="" />
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/style.css') }}">
+    
   </head>
   <body>
+    <div class="container">
     <nav>
       <ul>
         <li>
@@ -27,6 +29,6 @@
     {% block content %}
 
     {% endblock %}
-
+    </div>
   </body>
 </html>
