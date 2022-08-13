@@ -1,0 +1,19 @@
+body {
+    background-color: rgb(55, 55, 55);
+    top: 120px;
+}
+
+header {
+    background-color: silver;
+    height: 120px;
+    width: 100vw;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+}
