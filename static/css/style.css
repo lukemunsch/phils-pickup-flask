@@ -1,14 +1,6 @@
 /* fonts */
 
 @font-face {
-    font-family: 'carne';
-    src: url('carnevalee_freakshow-webfont.woff2') format('woff2'),
-         url('carnevalee_freakshow-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
     font-family: 'cactus';
     src: url('cactus_bold-webfont.woff2') format('woff2'),
          url('cactus_bold-webfont.woff') format('woff');
@@ -16,9 +8,18 @@
     font-style: normal;
 }
 
+@font-face {
+    font-family: 'carne';
+    src: url('carnevalee-webfont.woff2') format('woff2'),
+         url('carnevalee-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
 .custom-font {
     font-family: 'cactus';
     font-size: 200%;
+    letter-spacing: 2px;
 }
 
 .logo-text {
@@ -29,8 +30,7 @@
 
 body {
     background-color: rgb(55, 55, 55);
-    font-family: 'carni', sans-serif;
-    height: calc(100vh - 120px);
+    font-family: 'cactus', Arial, sans-serif;
 } 
 
 /* header section */
