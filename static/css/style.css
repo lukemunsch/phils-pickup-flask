@@ -1,10 +1,41 @@
-body {
-    background-color: rgb(55, 55, 55);
-    top: 120px;
+/* fonts */
+
+@font-face {
+    font-family: 'carne';
+    src: url('carnevalee_freakshow-webfont.woff2') format('woff2'),
+         url('carnevalee_freakshow-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
 }
 
+@font-face {
+    font-family: 'cactus';
+    src: url('cactus_bold-webfont.woff2') format('woff2'),
+         url('cactus_bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.custom-font {
+    font-family: 'cactus';
+    font-size: 200%;
+}
+
+.logo-text {
+    font-family: 'carne', sans-serif;
+}
+
+/* main body style */
+
+body {
+    background-color: rgb(55, 55, 55);
+    font-family: 'carni', sans-serif;
+    height: calc(100vh - 120px);
+} 
+
+/* header section */
+
 header {
-    background-color: silver;
     height: 120px;
     width: 100vw;
     position: fixed;
@@ -12,8 +43,51 @@ header {
     left: 0px;
 }
 
+#topnav {
+    height: 120px;
+}
+
 ul {
     list-style-type: none;
     padding: 0px;
     margin: 0px;
+}
+
+a.nav-link {
+    margin-left: 2rem;
+}
+
+/* main container */
+main {
+    top: 120px;
+}
+
+footer {
+    height: 80px;
+    width: 100vw;
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+}
+
+/* background colors */
+
+.bg-silver {
+    background-color: silver;
+}
+
+.bg-orange {
+    background: #e58100;
+}
+
+/* text positions */
+
+.right {
+    text-align: right;
+}
+
+/* specific border styles */
+
+.border-left {
+    border-left: 4px solid #000;
 }
