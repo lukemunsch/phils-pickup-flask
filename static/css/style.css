@@ -17,7 +17,6 @@
 }
 
 .custom-font {
-    font-family: 'cactus';
     font-size: 200%;
     letter-spacing: 2px;
 }
@@ -31,6 +30,7 @@
 body {
     background-color: rgb(55, 55, 55);
     font-family: 'cactus', Arial, sans-serif;
+
 } 
 
 /* header section */
@@ -58,6 +58,7 @@ a.nav-link {
 }
 
 /* main container */
+
 main {
     top: 120px;
 }
