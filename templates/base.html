@@ -12,9 +12,8 @@
     />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    {% endblock %} {% block extra_meta %}{% endblock extra_meta %} 
-    
-    {% block core_css %}
+    {% endblock %} {% block extra_meta %}{% endblock %} {% block
+    core_css %}
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -31,37 +30,77 @@
       type="text/css"
       href="{{ url_for('static', filename='css/style.css') }}"
     />
-    {% endblock %} 
-
-    {% block extra_css %}{% endblock extra_css %}
+    {% endblock %}
+    
+    {% block extra_css %}{% endblock %}
     
     {% block core_js %}
-      <script
-        src="https://kit.fontawesome.com/5889d2f18a.js"
-        crossorigin="anonymous">
-      </script>
-      <script src="https://code.jquery.com/jquery-3.6.0.min.js"
-        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
-        crossorigin="anonymous">
-      </script>
-      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.min.js"
-        integrity="sha384-ODmDIVzN+pFdexxHEHFBQH3/9/vQ9uori45z4JjnFsRydbmQbmL5t1tQ0culUzyK"
-        crossorigin="anonymous">
-      </script>
-    {% endblock core_js %}
+    <script
+      src="https://kit.fontawesome.com/5889d2f18a.js"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.min.js"
+      integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.min.js"
+      integrity="sha384-ODmDIVzN+pFdexxHEHFBQH3/9/vQ9uori45z4JjnFsRydbmQbmL5t1tQ0culUzyK"
+      crossorigin="anonymous"
+    ></script>
+    {% endblock %}
     
-    {% block extra_js %}{% endblock extra_js %}
+    {% block extra_js %}{% endblock %}
 
     <title>Phil's Pickup - Motorbike Transport</title>
   </head>
 
   <body>
-    <header>
-      
+    <header class="container-fluid fixed-top">
+      <div id="topnav" class="row bg-silver">
+        <div class="col-md-4 main-logo"></div>
+        <div class="col-md-8 right my-auto">
+          <nav>
+            <ul class="custom-font">
+              <li class="list-inline-item">
+                <a class="nav-link" href="{{ url_for('index') }}">Home</a>
+              </li>
+              <li class="list-inline-item">
+                <a class="nav-link" href="{{ url_for('services') }}"
+                  >Services</a>
+              </li>
+              <li class="list-inline-item">
+                <a class="nav-link" href="{{ url_for('contact_us') }}"
+                  >Contact Us</a
+                >
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+      <div id="quick-banner" class="row text-center">
+        <div class="">
+          <h2 class="my-1">
+            Call: +447802181630 | Email: philspickup.rdc@gmail.com
+          </h2>
+        </div>
+      </div>
     </header>
     <main>
-      {% block content %} {% endblock %}
+      {% block page_header %}{% endblock %} {% block content %}{% endblock %}
     </main>
-    <footer></footer>
+    <footer>
+      <div class="container-fluid fixed-bottom">
+        <div id="footer-info" class="row bg-orange">
+          <div class="col-md-6">
+            <p>Site by Luke Munsch</p>
+            <p>Check me out on Facebook</p>
+          </div>
+          <div class="col-md-6 border-left"></div>
+        </div>
+      </div>
+    </footer>
+    {% block postloadjs %}{% endblock postloadjs %}
   </body>
 </html>
