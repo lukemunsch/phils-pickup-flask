@@ -56,6 +56,7 @@
           <a class="call-link d-flex" href="tel:+447802181630">Call Now!</a>
           </a>
         </div>
+
         <div id="topnav" class="d-none d-md-block col-md-12">
           <div class="row bg-silver">
             <div class="col-md-4">
@@ -67,21 +68,21 @@
                 />
               </a>
             </div>
+
             <div class="col-md-8 right my-auto">
               <nav>
                 <ul class="custom-font">
                   <li class="list-inline-item">
-                    <a class="nav-link" href="{{ url_for('index') }}">Home</a>
+                    <a class="nav-link"
+                      href="{{ url_for('index') }}">Home</a>
                   </li>
                   <li class="list-inline-item">
-                    <a class="nav-link" href="{{ url_for('services') }}"
-                      >Services</a
-                    >
+                    <a class="nav-link"
+                      href="{{ url_for('services') }}">Services</a>
                   </li>
                   <li class="list-inline-item">
-                    <a class="nav-link" href="{{ url_for('contact_us') }}"
-                      >Contact Us</a
-                    >
+                    <a class="nav-link"
+                      href="{{ url_for('contact_us') }}">Contact Us</a>
                   </li>
                 </ul>
               </nav>
@@ -112,28 +113,34 @@
     
     <footer>
       <div class="container-fluid fixed-bottom">
-        <div class="row bg-orange border border-dark">
-          <div class="col-md-6">
-            <div class="row">
-              <div class="col-10 offset-1">
-                <span>Site Created by Luke Munsch</span>
-                <br>
-                <span>
-                  <a class="icon-space" href="#"><i class="fab fa-facebook-square"></i></a>
-                  <a class="icon-space" href="#"><i class="fab fa-linkedin"></i></a>
-                  <a class="icon-space" href="#"><i class="fab fa-github-square"></i></a>
-                </span>
-                <br>
-                <span class="copyright text-muted">
-                  Copyright &copy; Phil's Pickup <span id="copyright"></span>
-                </span>
+        <div class="row d-flex">
+          <div class="d-none d-md-block col-md-12">
+            <div class="row bg-orange border border-dark">
+              <div class="col-md-6">
+                <div class="row">
+                  <div class="col-10 offset-1 mb-2">
+                    <span>Site Created by Luke Munsch</span>
+                    <br>
+                    <span>
+                      <a class="icon-space" href="#"><i class="fab fa-facebook-square"></i></a>
+                      <a class="icon-space" href="#"><i class="fab fa-linkedin"></i></a>
+                      <a class="icon-space" href="#"><i class="fab fa-github-square"></i></a>
+                    </span>
+                    <br>
+                    <span class="copyright text-muted">
+                      Copyright &copy; Phil's Pickup <span id="copyright"></span>
+                    </span>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-6 border-left mb-2">
+                  <p>super massive black hole!</p>
+                </div>
               </div>
             </div>
-            
           </div>
-          <div class="col-md-6 border-left">
-
-          </div>
+          {% include 'includes/mobile-footer.html' %}
         </div>
       </div>
     </footer>
