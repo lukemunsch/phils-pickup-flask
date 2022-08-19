@@ -56,8 +56,8 @@
           <a class="call-link d-flex" href="tel:+447802181630">Call Now!</a>
           </a>
         </div>
-        <div class="d-none d-md-block col-md-12">
-          <div id="topnav" class="row bg-silver">
+        <div id="topnav" class="d-none d-md-block col-md-12">
+          <div class="row bg-silver">
             <div class="col-md-4">
               <a href="{{ url_for('index') }}">
                 <img
@@ -92,22 +92,24 @@
         <div id="quick-banner" class="row text-center">
           <div class="col-12 bg-orange border border-dark">
             <h2 class="my-1 custom-font">
-              <span
-                ><i class="fas fa-phone-alt fa-xs"></i> Call:+447802181630</span
-              >
+              <span>
+                <i class="fas fa-phone-alt fa-xs"></i> Call:+447802181630
+                </span>
               |
-              <span
-                ><i class="fas fa-paper-plane fa-xs"></i>
-                Email:philspickup.rdc@gmail.com</span
-              >
+              <span>
+                <i class="fas fa-paper-plane fa-xs"></i>
+                Email:philspickup.rdc@gmail.com
+                </span>
             </h2>
           </div>
         </div>
       </div>
     </header>
+
     <main>
       {% block page_header %}{% endblock %} {% block content %} {% endblock %}
     </main>
+    
     <footer>
       <div class="container-fluid fixed-bottom">
         <div id="footer-info" class="row bg-orange border border-dark">

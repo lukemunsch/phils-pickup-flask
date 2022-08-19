@@ -27,9 +27,6 @@
 
 .main-logo {
     height: 140px;
-    transition: all .5s ease-in-out;
-    -moz-transition: all .5s ease-in-out;
-    -webkit-transition: all .5s ease-in-out;
 }
 
 /* main body style */
@@ -37,13 +34,16 @@
 body {
     background-color: rgb(55, 55, 55);
     font-family: 'cactus', Arial, sans-serif;
-    width: 100vw;
+    padding: 0px;
+    margin: 0px;
 }
 
 /* header section */
 
 header {
     position: fixed;
+    padding: 0px;
+    margin: 0px;
     top: 0px;
     left: 0px;
 }
@@ -54,13 +54,16 @@ header {
 
 .header-container-small {
     height: 200px;
+    width: 100%;
 }
 
 #topnav {
     height: 140px;
+    width: 100%;
 }
 
 div#quick-banner {
+    width: 100%;
     margin: 0px;
     padding: 0px;
 }
@@ -86,15 +89,15 @@ a.nav-link:hover {
 
 /* main container */
 
-/* main {
+main {
     top: 120px;
-} */
+}
 
-/* footer section§ */
+/* footer section */
 
 footer {
     height: 80px;
-    width: 100vw;
+    width: 100%;
     bottom: 0px;
     left: 0px;
 }
@@ -134,7 +137,10 @@ footer {
     border-top: 0px;
     border-color: #000;
     border-radius: 0% 0% 8% 8%;
-    cursor: pointer;
     text-transform: uppercase;
     text-decoration: none;
+}
+
+.call-link {
+    cursor: pointer;
 }
