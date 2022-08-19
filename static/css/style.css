@@ -3,7 +3,7 @@
 @font-face {
     font-family: 'cactus';
     src: url('cactus_bold-webfont.woff2') format('woff2'),
-         url('cactus_bold-webfont.woff') format('woff');
+        url('cactus_bold-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
@@ -11,7 +11,7 @@
 @font-face {
     font-family: 'carne';
     src: url('carnevalee-webfont.woff2') format('woff2'),
-         url('carnevalee-webfont.woff') format('woff');
+        url('carnevalee-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
@@ -37,7 +37,8 @@
 body {
     background-color: rgb(55, 55, 55);
     font-family: 'cactus', Arial, sans-serif;
-} 
+    width: 100vw;
+}
 
 /* header section */
 
@@ -57,6 +58,11 @@ header {
 
 #topnav {
     height: 140px;
+}
+
+div#quick-banner {
+    margin: 0px;
+    padding: 0px;
 }
 
 ul {

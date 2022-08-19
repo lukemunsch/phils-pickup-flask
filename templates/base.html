@@ -51,46 +51,52 @@
 
   <body>
     <header class="container-fluid fixed-top">
-      <div id="topnav" class="row bg-silver">
-        <div class="d-none d-md-block col-md-4">
-          <a href="{{ url_for('index') }}">
-            <img src="static/images/phils-pickup-logo.png" alt="Phil's Pickup Logo" class="main-logo">
-          </a>
+      <div class="row">
+        <div class="d-none d-md-block col-md-12">
+          <div id="topnav" class="row bg-silver">
+            <div class="col-md-4">
+              <a href="{{ url_for('index') }}">
+                <img
+                  src="static/images/phils-pickup-logo.png"
+                  alt="Phil's Pickup Logo"
+                  class="main-logo"
+                />
+              </a>
+            </div>
+            <div class="col-md-8 right my-auto">
+              <nav>
+                <ul class="custom-font">
+                  <li class="list-inline-item">
+                    <a class="nav-link" href="{{ url_for('index') }}">Home</a>
+                  </li>
+                  <li class="list-inline-item">
+                    <a class="nav-link" href="{{ url_for('services') }}"
+                      >Services</a
+                    >
+                  </li>
+                  <li class="list-inline-item">
+                    <a class="nav-link" href="{{ url_for('contact_us') }}"
+                      >Contact Us</a
+                    >
+                  </li>
+                </ul>
+              </nav>
+            </div>
+          </div>
         </div>
-        <div class="d-none d-md-block col-md-8 right my-auto">
-          <nav>
-            <ul class="custom-font">
-              <li class="list-inline-item">
-                <a class="nav-link" href="{{ url_for('index') }}">Home</a>
-              </li>
-              <li class="list-inline-item">
-                <a class="nav-link" href="{{ url_for('services') }}"
-                  >Services</a
-                >
-              </li>
-              <li class="list-inline-item">
-                <a class="nav-link" href="{{ url_for('contact_us') }}"
-                  >Contact Us</a
-                >
-              </li>
-            </ul>
-          </nav>
-        </div>
-      </div>
-      <div id="quick-banner" class="row text-center">
-        <div class="col bg-orange border border-dark">
-          <h2 class="my-1 custom-font">
-            <span>Call:+447802181630</span> |
-            <span>Email:philspickup.rdc@gmail.com</span>
-          </h2>
+        {% include 'includes/mobile-header.html' %}
+        <div id="quick-banner" class="row text-center">
+          <div class="col-12 bg-orange border border-dark">
+            <h2 class="my-1 custom-font">
+              <span><i class="fas fa-phone-alt fa-xs"></i> Call:+447802181630</span> |
+              <span><i class="fas fa-paper-plane fa-xs"></i> Email:philspickup.rdc@gmail.com</span>
+            </h2>
+          </div>
         </div>
       </div>
     </header>
     <main>
-      {% block page_header %}{% endblock %}
-      {% block content %}
-      
-      {% endblock %}
+      {% block page_header %}{% endblock %} {% block content %} {% endblock %}
     </main>
     <footer>
       <div class="container-fluid fixed-bottom">
