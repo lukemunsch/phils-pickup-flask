@@ -110,6 +110,11 @@ footer {
     left: 0px;
 }
 
+.footer-header {
+    letter-spacing: 2px;
+    font-size: 120%;
+}
+
 /* background colors */
 
 .bg-silver {
