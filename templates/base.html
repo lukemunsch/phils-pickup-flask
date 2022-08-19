@@ -112,15 +112,35 @@
     
     <footer>
       <div class="container-fluid fixed-bottom">
-        <div id="footer-info" class="row bg-orange border border-dark">
+        <div class="row bg-orange border border-dark">
           <div class="col-md-6">
-            <p>Site by Luke Munsch</p>
-            <p>Check me out on Facebook</p>
+            <div class="row">
+              <div class="col-10 offset-1">
+                <span>Site Created by Luke Munsch</span>
+                <br>
+                <span>
+                  <a class="icon-space" href="#"><i class="fab fa-facebook-square"></i></a>
+                  <a class="icon-space" href="#"><i class="fab fa-linkedin"></i></a>
+                  <a class="icon-space" href="#"><i class="fab fa-github-square"></i></a>
+                </span>
+                <br>
+                <span class="copyright text-muted">
+                  Copyright &copy; Phil's Pickup <span id="copyright"></span>
+                </span>
+              </div>
+            </div>
+            
           </div>
-          <div class="col-md-6 border-left"></div>
+          <div class="col-md-6 border-left">
+
+          </div>
         </div>
       </div>
     </footer>
-    {% block postloadjs %}{% endblock postloadjs %}
+    {% block postloadjs %}
+    <script>
+        $("#copyright").text(new Date().getFullYear());
+    </script>
+    {% endblock postloadjs %}
   </body>
 </html>

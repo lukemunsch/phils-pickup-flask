@@ -157,3 +157,7 @@ footer {
     cursor: pointer;
     text-decoration: none;
 }
+
+.icon-space {
+    padding-right: 2rem;
+}
