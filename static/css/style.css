@@ -137,6 +137,11 @@ footer {
     border-left: 4px solid #000;
 }
 
+.bold-hr {
+    padding-bottom: 4px;
+    background-color: #000;
+}
+
 /* Misc bits */
 
 .call-btn {
