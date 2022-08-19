@@ -22,11 +22,14 @@
 }
 
 .logo-text {
-    font-family: 'carne', sans-serif;
+    font-family: 'carne', 'cactus', sans-serif;
 }
 
 .main-logo {
-    background: url(media/phils-pickup-logo.png) no-repeat center center cover;
+    height: 140px;
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
 }
 
 /* main body style */
@@ -34,21 +37,26 @@
 body {
     background-color: rgb(55, 55, 55);
     font-family: 'cactus', Arial, sans-serif;
-
 } 
 
 /* header section */
 
 header {
-    height: 120px;
-    width: 100vw;
     position: fixed;
     top: 0px;
     left: 0px;
 }
 
+.header-container {
+    height: 140px;
+}
+
+.header-container-small {
+    height: 200px;
+}
+
 #topnav {
-    height: 120px;
+    height: 140px;
 }
 
 ul {
@@ -63,14 +71,13 @@ a.nav-link {
 
 /* main container */
 
-main {
+/* main {
     top: 120px;
-}
+} */
 
 footer {
     height: 80px;
     width: 100vw;
-    position: fixed;
     bottom: 0px;
     left: 0px;
 }
