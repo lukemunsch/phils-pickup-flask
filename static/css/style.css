@@ -27,7 +27,7 @@
 }
 
 .banner-font {
-    font-size: 120%;
+    font-size: 150%;
 }
 
 .logo-text {
@@ -75,6 +75,10 @@ header {
     width: 100%;
     margin: 0px;
     padding: 0px;
+}
+
+.big-banner {
+    letter-spacing: 2px;
 }
 
 ul {
@@ -170,4 +174,8 @@ footer {
 
 .icon-space {
     padding-right: 2rem;
+}
+
+.mobile-space {
+    padding-left: 2rem;
 }
