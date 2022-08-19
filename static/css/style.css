@@ -72,7 +72,16 @@ ul {
 }
 
 a.nav-link {
-    margin-left: 2rem;
+    padding: 0rem .75rem;
+}
+
+a.nav-link:hover {
+    border: 2px solid black;
+    background-color: #e58100;
+}
+
+.right-pad {
+    padding-right: 0.75rem;
 }
 
 /* main container */
@@ -80,6 +89,8 @@ a.nav-link {
 /* main {
     top: 120px;
 } */
+
+/* footer section§ */
 
 footer {
     height: 80px;
@@ -108,4 +119,22 @@ footer {
 
 .border-left {
     border-left: 4px solid #000;
+}
+
+/* Misc bits */
+
+.call-btn {
+    position: absolute;
+    height: 40px;
+    width: auto;
+    top: 0px;
+    right: 10px;
+    background-color: #e58100;
+    letter-spacing: 2px;
+    border-top: 0px;
+    border-color: #000;
+    border-radius: 0% 0% 8% 8%;
+    cursor: pointer;
+    text-transform: uppercase;
+    text-decoration: none;
 }
