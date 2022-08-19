@@ -25,6 +25,10 @@
     font-family: 'carne', sans-serif;
 }
 
+.main-logo {
+    background: url(media/phils-pickup-logo.png) no-repeat center center cover;
+}
+
 /* main body style */
 
 body {
