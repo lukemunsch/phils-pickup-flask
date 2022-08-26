@@ -49,6 +49,12 @@ header {
     height: 140px;
 }
 
+.main-container {
+    width: 100vw;
+    padding: 0px;
+    margin: 0px;
+}
+
 .main-logo {
     height: 140px;
 }
@@ -64,6 +70,7 @@ header {
 }
 
 #quick-banner {
+    font-size: 120%;
     width: 100%;
     margin: 0px;
     padding: 0px;
@@ -105,8 +112,9 @@ main {
 /* footer section */
 
 footer {
-    height: 80px;
+    height: 85px;
     width: 100%;
+    position: absolute;
     bottom: 0px;
     left: 0px;
 }
@@ -114,6 +122,10 @@ footer {
 .footer-header {
     letter-spacing: 2px;
     font-size: 120%;
+}
+
+.footer-lift {
+    height: 75px;
 }
 
 /* background colors */
