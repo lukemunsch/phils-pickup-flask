@@ -46,7 +46,7 @@
     ></script>
     {% endblock %} {% block extra_js %}{% endblock %}
 
-    <title>Phil's Pickup - Motorbike Transport</title>
+    <title>Phil's Pickup - Motorcycle Transport</title>
   </head>
 
   <body>
@@ -109,7 +109,11 @@
     </header>
 
     <main>
-      {% block page_header %}{% endblock %} {% block content %} {% endblock %}
+      <div class="main-container grey-font">
+        {% block page_header %}{% endblock %}
+      
+        {% block content %}{% endblock %}
+      </div>
     </main>
     
     <footer>
@@ -133,7 +137,7 @@
                     </span>
                     <br>
                     <span>
-                      Sitemap
+                      sitemap
                     </span>
                   </div>
                 </div>
@@ -145,11 +149,11 @@
                     <br>
                     <span>Recovery | Delivery | Collection</span>
                     <br>
-                    <span><i class="fas fa-phone-alt fa-xs"></i> call: +447802181630</span>
+                    <span><i class="fas fa-phone-alt fa-xs"></i> Call: +447802181630</span>
                     <br>
-                    <span><i class="fas fa-paper-plane fa-xs"></i> email: philspickup.rdc@gmail.com</span>
+                    <span><i class="fas fa-paper-plane fa-xs"></i> Email: philspickup.rdc@gmail.com</span>
                     <br>
-                    <span>location: Surrey</span>
+                    <span>Location: Surrey</span>
                   </div>
                 </div>
               </div>

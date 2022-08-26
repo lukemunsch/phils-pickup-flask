@@ -8,14 +8,6 @@
     font-style: normal;
 }
 
-@font-face {
-    font-family: 'carne';
-    src: url('carnevalee-webfont.woff2') format('woff2'),
-        url('carnevalee-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-
 .custom-font {
     font-size: 200%;
     letter-spacing: 2px;
@@ -105,6 +97,10 @@ main {
     top: 120px;
 }
 
+.grey-font {
+    color: silver;
+}
+
 /* footer section */
 
 footer {
@@ -160,6 +156,7 @@ footer {
     border-color: #000;
     border-radius: 0% 0% 8% 8%;
     text-decoration: none;
+    text-transform: lowercase;
 }
 
 .call-btn:hover {
