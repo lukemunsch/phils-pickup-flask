@@ -26,10 +26,6 @@
     font-family: 'carne', 'cactus', sans-serif;
 }
 
-.main-logo {
-    height: 140px;
-}
-
 /* main body style */
 
 body {
@@ -50,6 +46,10 @@ header {
 }
 
 .header-container {
+    height: 140px;
+}
+
+.main-logo {
     height: 140px;
 }
 
