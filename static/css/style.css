@@ -94,7 +94,8 @@ a.nav-link:hover {
 /* main container */
 
 main {
-    top: 120px;
+    top: 140px;
+    letter-spacing: 1.2px;
 }
 
 .grey-font {
