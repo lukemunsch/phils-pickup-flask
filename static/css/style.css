@@ -22,8 +22,8 @@
     font-size: 150%;
 }
 
-.logo-text {
-    font-family: 'carne', 'cactus', sans-serif;
+h1 {
+    font-size: 300%;
 }
 
 /* main body style */
@@ -178,6 +178,7 @@ footer {
 }
 
 .call-link {
+    color: #000;
     cursor: pointer;
     text-decoration: none;
 }
