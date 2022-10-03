@@ -26,6 +26,10 @@ h1 {
     font-size: 300%;
 }
 
+.img-border {
+    border: 2px solid #000;
+}
+
 /* main body style */
 
 body {
@@ -107,6 +111,15 @@ main {
 
 .grey-font {
     color: silver;
+}
+
+.content-image {
+    width: 90%;
+    text-align: center;
+}
+
+.main-image {
+    width: 100vw;
 }
 
 /* footer section */
