@@ -26,8 +26,23 @@ h1 {
     font-size: 300%;
 }
 
+/* images */
+
 .img-border {
     border: 2px solid #000;
+}
+
+.main-logo {
+    height: 140px;
+}
+
+.content-image {
+    width: 80%;
+    align-items: center;
+}
+
+.main-image {
+    width: 100vw;
 }
 
 /* main body style */
@@ -57,10 +72,6 @@ header {
     width: 100vw;
     padding: 0px;
     margin: 0px;
-}
-
-.main-logo {
-    height: 140px;
 }
 
 .header-container-small {
@@ -111,15 +122,6 @@ main {
 
 .grey-font {
     color: silver;
-}
-
-.content-image {
-    width: 90%;
-    text-align: center;
-}
-
-.main-image {
-    width: 100vw;
 }
 
 /* footer section */
