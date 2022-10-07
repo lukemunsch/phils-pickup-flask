@@ -37,7 +37,7 @@ h1 {
 }
 
 .content-image {
-    height: 250px;
+    max-height: 250px;
     width: 80%;
     align-items: center;
 }
