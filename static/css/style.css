@@ -130,6 +130,10 @@ main {
     color: silver;
 }
 
+#reviews {
+    margin-left: 5%;
+}
+
 /* footer section */
 
 footer {
