@@ -208,6 +208,14 @@ footer {
     text-decoration: none;
 }
 
+.plain-link {
+    text-decoration: none;
+}
+
+.plain-link h3 {
+    color: #000;
+}
+
 .icon-space {
     padding-right: 2rem;
 }
