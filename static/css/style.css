@@ -48,7 +48,7 @@ h1 {
 
 .image-banner {
     width: 100%;
-    height: 300px;
+    height: 250px;
 }
 
 /* main body style */
@@ -127,10 +127,6 @@ main {
 
 .grey-font {
     color: silver;
-}
-
-#reviews {
-    margin-left: 0%;
 }
 
 /* footer section */
