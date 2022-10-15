@@ -122,7 +122,6 @@ a.nav-link:hover {
 /* main container */
 
 main {
-    top: 140px;
     letter-spacing: 1.2px;
 }
 
@@ -131,12 +130,13 @@ main {
 }
 
 #reviews {
-    margin-left: 5%;
+    margin-left: 0%;
 }
 
 /* footer section */
 
 footer {
+    color: white;
     height: 85px;
     width: 100%;
     position: absolute;
@@ -147,6 +147,10 @@ footer {
 .footer-header {
     letter-spacing: 2px;
     font-size: 120%;
+}
+
+.footer-text {
+    letter-spacing: 1.5px;
 }
 
 .footer-lift {

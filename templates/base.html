@@ -75,7 +75,9 @@
                     <a class="nav-link" href="{{ url_for('index') }}">Home</a>
                   </li>
                   <li class="list-inline-item">
-                    <a class="nav-link" href="{{ url_for('services') }} disabled"
+                    <a
+                      class="nav-link"
+                      href="{{ url_for('services') }} disabled"
                       >Services</a
                     >
                   </li>
@@ -109,9 +111,7 @@
     </header>
 
     <main class="container-fluid">
-      <div class="grey-font">
-        {% block page_header %}{% endblock %} {% block content %}{% endblock %}
-      </div>
+      {% block page_header %}{% endblock %} {% block content %}{% endblock %}
     </main>
 
     <footer class="container-fluid fixed-bottom">
@@ -137,10 +137,10 @@
                     ></a>
                   </span>
                   <br />
-                  <span class="copyright">
+                  <span class="copyright footer-text">
                     Copyright &copy; Phil's Pickup <span id="copyright"></span>
                   </span>
-                  <span> || sitemap </span>
+                  <span class="footer-text"> || sitemap </span>
                   <br />
                 </div>
               </div>
@@ -153,20 +153,18 @@
                   >
                   <div class="row">
                     <div class="col-6">
-                      <span>Recovery | Delivery | Collection</span>
+                      <span class="footer-text"
+                        >Recovery | Delivery | Collection</span
+                      >
                       <br />
-                      <span>Location: Surrey</span>
+                      <span class="footer-text">Location: Surrey</span>
                     </div>
                     <div class="col-6">
-                      <span
-                        ><i class="fas fa-phone-alt fa-xs"></i> Call:
-                        +447802181630</span
-                      >
+                      <span class="footer-text"
+                        ><i class="fab fa-facebook-square"></i
+                      ></span>
                       <br />
-                      <span
-                        ><i class="fas fa-paper-plane fa-xs"></i> Email:
-                        philspickup.rdc@gmail.com</span
-                      >
+                      
                     </div>
                   </div>
                 </div>
