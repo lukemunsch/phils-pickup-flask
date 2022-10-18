@@ -93,16 +93,26 @@ header {
 
 #quick-banner {
     width: 100%;
-    margin: 0px;
-    padding: 0px;
+    padding: 0;
+    margin: 0;
 }
 
+.banner-pad-l {
+    padding-left: 10px;
+}
 
+.banner-pad-r {
+    padding-right: 10px;
+}
 
 ul {
     list-style-type: none;
     padding: 0px;
     margin: 0px;
+}
+
+u {
+    text-underline-position: under;
 }
 
 a.nav-link {
@@ -164,7 +174,7 @@ footer {
 
 /* text positions */
 
-.right {
+.text-right {
     text-align: right;
 }
 
