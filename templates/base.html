@@ -78,10 +78,10 @@
                   </li>
                   <li class="list-inline-item">
                     <a
-                      class="nav-link"
-                      href="{{ url_for('services') }} disabled"
-                      >Services</a
-                    >
+                      class="nav-link text-muted"
+                      href="">
+                      Services
+                    </a>
                   </li>
                   <li class="list-inline-item">
                     <a class="nav-link" href="{{ url_for('contact_us') }}"
@@ -96,7 +96,7 @@
         {% include 'includes/mobile-header.html' %}
         <!--quick info banner-->
         <div id="quick-banner" class="row bg-orange border border-dark">
-          <div class="col-6 text-right">
+          <div class="col-12 col-md-6 text-center my-auto">
             <p class="my-1 big-banner">
               <span class="banner-pad-r">
                 <i class="fas fa-phone-alt fa-xs"></i>
@@ -105,7 +105,7 @@
             </p>
           </div>
           <br class="d-md-none" />
-          <div class="col-6 my-auto">
+          <div class="col-12 col-md-6 text-center my-auto">
             <p class="my-1 big-banner">
               <span class="banner-pad-l">
                 <i class="fas fa-paper-plane fa-xs"></i>
