@@ -19,6 +19,11 @@
     letter-spacing: 1.2px;
 }
 
+.custoemr-font-email {
+    font-size: 120%;
+    letter-spacing: 1.5px;
+}
+
 .banner-font {
     font-size: 150%;
 }
