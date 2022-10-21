@@ -19,7 +19,7 @@
     letter-spacing: 1.2px;
 }
 
-.custoemr-font-email {
+.custom-font-email {
     font-size: 120%;
     letter-spacing: 1.5px;
 }
@@ -240,4 +240,15 @@ footer {
 
 .mobile-space {
     padding-left: 2rem;
+}
+
+/* media queries */
+
+@media (max-width: 1150px) {
+
+    h3.custom-font-email {
+        font-size: 100%;
+        letter-spacing: 1.1px;
+    }
+    
 }
