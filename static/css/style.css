@@ -246,9 +246,4 @@ footer {
 
 @media (max-width: 1150px) {
 
-    h3.custom-font-email {
-        font-size: 100%;
-        letter-spacing: 1.1px;
-    }
-    
 }
