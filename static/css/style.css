@@ -243,6 +243,8 @@ footer {
 
 /* media queries */
 
-@media (max-width: 1150px) {
-
+@media (max-width: 450px) {
+    .custom-font-small {
+        font-size: 100%;
+    }
 }
