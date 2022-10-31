@@ -4,6 +4,7 @@ cssbeautifier==1.14.5
 djlint==1.9.4
 EditorConfig==0.12.3
 Flask==2.2.1
+gunicorn==20.1.0
 html-tag-names==0.1.2
 html-void-elements==0.1.0
 importlib-metadata==4.12.0
