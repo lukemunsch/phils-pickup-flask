@@ -13,6 +13,10 @@
     <meta name='keywords'
         content='phils pickup motorbike motorcycle transport recovery delivery collection surrey-based track days emergency'>
     {% endblock %} {% block extra_meta %}{% endblock %} {% block core_css %}
+
+    <!--favicon-->
+    <link rel="shortcut icon" href="{{ url_for('static', filename='favicon.ico') }}">
+
     <!-- CSS only -->
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
@@ -30,7 +34,11 @@
       type="text/css"
       href="{{ url_for('static', filename='css/style.css') }}"
     />
-    {% endblock %} {% block extra_css %}{% endblock %} {% block core_js %}
+    {% endblock %}
+    
+    {% block extra_css %}{% endblock %}
+    
+    {% block core_js %}
     <script
       src="https://kit.fontawesome.com/5889d2f18a.js"
       crossorigin="anonymous"
