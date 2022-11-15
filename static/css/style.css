@@ -90,7 +90,7 @@ header {
 }
 
 .header-container-small {
-    height: 200px;
+    height: 150px;
     width: 100%;
 }
 
@@ -238,6 +238,16 @@ footer {
 @media (max-width: 991px) {
     .custom-font {
         font-size: 100%;
+    }
+}
+
+@media (max-width: 767px) {
+    .main-logo {
+        height: 100px;
+    }
+
+    .header-container {
+        height: 100px;
     }
 }
 
