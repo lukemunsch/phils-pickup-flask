@@ -12,6 +12,12 @@ def index():
     return render_template("index.html")
 
 
+@app.route("/")
+def services():
+    """Set up directory for services page"""
+    return render_template("services.html")
+
+
 @app.route("/contact_us")
 def contact_us():
     """Set up directory for contact page"""
