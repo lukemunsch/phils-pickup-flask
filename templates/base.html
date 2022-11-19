@@ -10,12 +10,17 @@
       name="description"
       content="Motorbike, Trike and Quad Transport Across the UK"
     />
-    <meta name='keywords'
-        content='phils pickup motorbike motorcycle transport recovery delivery collection surrey-based track days emergency'>
+    <meta
+      name="keywords"
+      content="phils pickup motorbike motorcycle transport recovery delivery collection surrey-based track days emergency"
+    />
     {% endblock %} {% block extra_meta %}{% endblock %} {% block core_css %}
 
     <!--favicon-->
-    <link rel="shortcut icon" href="{{ url_for('static', filename='favicon.ico') }}">
+    <link
+      rel="shortcut icon"
+      href="{{ url_for('static', filename='favicon.ico') }}"
+    />
 
     <!-- CSS only -->
     <link
@@ -34,11 +39,7 @@
       type="text/css"
       href="{{ url_for('static', filename='css/style.css') }}"
     />
-    {% endblock %}
-    
-    {% block extra_css %}{% endblock %}
-    
-    {% block core_js %}
+    {% endblock %} {% block extra_css %}{% endblock %} {% block core_js %}
     <script
       src="https://kit.fontawesome.com/5889d2f18a.js"
       crossorigin="anonymous"
@@ -90,7 +91,7 @@
                     <a class="nav-link" href="{{ url_for('index') }}">Home</a>
                   </li>
                   <li class="list-inline-item">
-                    <a class="nav-link text-muted" href="">Services</a>
+                    <a class="nav-link text-muted disabled" href="{{ url_for('services') }}">Services</a>
                   </li>
                   <li class="list-inline-item">
                     <a class="nav-link" href="{{ url_for('contact_us') }}"
