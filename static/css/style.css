@@ -44,7 +44,7 @@ h1 {
 
 .content-image {
     max-height: 250px;
-    width: 80%;
+    max-width: 460px;
 }
 
 .main-image {
@@ -53,7 +53,7 @@ h1 {
 
 .image-banner {
     width: 100%;
-    max-height: 250px;
+    max-height: 500px;
 }
 
 .card-image {
