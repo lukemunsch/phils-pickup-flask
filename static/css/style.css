@@ -51,6 +51,11 @@ h1 {
     max-width: 460px;
 }
 
+.service-image {
+    max-height: auto;
+    max-width: 80%;
+}
+
 .main-image {
     width: 100vw;
 }
