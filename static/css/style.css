@@ -109,6 +109,10 @@ header {
     margin: 0;
 }
 
+.big-banner {
+    font-size: 130%;
+}
+
 .banner-pad-l {
     padding-left: 10px;
 }
@@ -202,7 +206,7 @@ footer {
     top: 0px;
     right: 3px;
     background-color: #e58100;
-    font-size: 150%;
+    font-size: 130%;
     text-transform: capitalize;
     border-top: 0px;
     border-color: #000;
@@ -212,6 +216,7 @@ footer {
 
 .call-btn:hover {
     background-color: #e58100;
+    border-color: #000;
 }
 
 .call-link {
@@ -251,6 +256,7 @@ footer {
 
     .header-container {
         height: 100px;
+        padding-top: 20px;
     }
 }
 
