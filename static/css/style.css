@@ -32,6 +32,10 @@ h1 {
     font-size: 300%;
 }
 
+.text-justify {
+    text-align: justify;
+}
+
 /* images */
 
 .img-border {

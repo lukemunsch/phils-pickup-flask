@@ -68,7 +68,7 @@
             class="call-link d-flex"
             href="tel:+447802181630"
             onclick="return confirm('Head to phone app???')"
-            >Call!</a
+            >Click to call!</a
           >
         </button>
         <!--page navigation-->
@@ -91,7 +91,11 @@
                     <a class="nav-link" href="{{ url_for('index') }}">Home</a>
                   </li>
                   <li class="list-inline-item">
-                    <a class="nav-link text-muted disabled" href="{{ url_for('services') }}">Services</a>
+                    <a
+                      class="nav-link"
+                      href="{{ url_for('services') }}"
+                      >Services</a
+                    >
                   </li>
                   <li class="list-inline-item">
                     <a class="nav-link" href="{{ url_for('contact_us') }}"
