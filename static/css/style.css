@@ -197,22 +197,21 @@ footer {
 
 .call-btn {
     position: absolute;
-    height: 40px;
+    height: auto;
     width: auto;
     top: 0px;
     right: 3px;
     background-color: #e58100;
     font-size: 150%;
+    text-transform: capitalize;
     border-top: 0px;
     border-color: #000;
     border-radius: 0% 0% 8% 8%;
     text-decoration: none;
-    text-transform: lowercase;
 }
 
 .call-btn:hover {
     background-color: #e58100;
-    text-transform: uppercase;
 }
 
 .call-link {
@@ -252,6 +251,12 @@ footer {
 
     .header-container {
         height: 100px;
+    }
+}
+
+@media (max-width: 460px) {
+    .call-btn {
+        width: 100px;
     }
 }
 
