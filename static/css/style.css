@@ -276,7 +276,7 @@ footer {
     }
 
     header {
-        position: unset;
+        position: static;
     }
 }
 
