@@ -89,7 +89,7 @@ header {
 }
 
 .header-container {
-    height: 140px;
+    height: 160px;
 }
 
 .main-container {
@@ -116,6 +116,10 @@ header {
 
 .big-banner {
     font-size: 130%;
+}
+
+a.big-banner {
+    text-decoration: none;
 }
 
 .banner-pad-l {
@@ -231,11 +235,18 @@ footer {
 }
 
 .plain-link {
+    color: white;
     text-decoration: none;
 }
 
 .plain-link h3 {
     color: #000;
+}
+
+.plain-link:hover {
+    color: #000;
+    text-decoration: underline;
+    text-underline-position: under;
 }
 
 .icon-space {
@@ -262,6 +273,10 @@ footer {
     .header-container {
         height: 100px;
         padding-top: 20px;
+    }
+
+    header {
+        position: unset;
     }
 }
 

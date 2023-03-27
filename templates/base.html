@@ -12,7 +12,7 @@
     />
     <meta
       name="keywords"
-      content="phils pickup motorbike motorcycle transport recovery delivery collection surrey-based track days emergency"
+      content="phils pickup, motorbike, motorcycle transport, recovery, delivery, collection, surrey-based, track days, emergency pickup"
     />
     {% endblock %} {% block extra_meta %}{% endblock %} {% block core_css %}
 
@@ -62,15 +62,6 @@
     <!--header section-->
     <header class="container-fluid">
       <div class="row d-flex">
-        <!--call now button-->
-        <button class="btn call-btn shadow-sm">
-          <a
-            class="call-link d-flex"
-            href="tel:+447802181630"
-            onclick="return confirm('Head to phone app???')"
-            >Click to call!</a
-          >
-        </button>
         <!--page navigation-->
         <div id="topnav" class="d-none d-md-block col-md-12">
           <div class="row bg-silver">
@@ -91,9 +82,7 @@
                     <a class="nav-link" href="{{ url_for('index') }}">Home</a>
                   </li>
                   <li class="list-inline-item">
-                    <a
-                      class="nav-link"
-                      href="{{ url_for('services') }}"
+                    <a class="nav-link" href="{{ url_for('services') }}"
                       >Services</a
                     >
                   </li>
@@ -111,21 +100,27 @@
         <!--quick info banner-->
         <div id="quick-banner" class="row bg-orange border border-dark">
           <div class="col-12 col-md-6 text-center my-auto">
-            <p class="my-1 big-banner">
-              <span class="banner-pad-r">
-                <i class="fas fa-phone-alt fa-xs"></i>
-                <strong>Call: +447802181630</strong>
-              </span>
-            </p>
+            <a href="tel:+447802181630" class="plain-link"
+              ><p class="my-1 big-banner">
+                <span class="banner-pad-r">
+                  <i class="fas fa-phone-alt fa-xs"></i>
+                  <strong>Call: +447802181630</strong>
+                </span>
+              </p></a
+            >
           </div>
           <br class="d-md-none" />
           <div class="col-12 col-md-6 text-center my-auto">
-            <p class="my-1 big-banner">
-              <span class="banner-pad-l">
-                <i class="fas fa-paper-plane fa-xs"></i>
-                <strong>Email: philspickup.rdc@gmail.com</strong>
-              </span>
-            </p>
+            <a
+              href="mailto:philspickup.rdc@gmail.com?subject='Enquiry_For_Phil'"
+              class="plain-link"
+              ><p class="my-1 big-banner">
+                <span class="banner-pad-l">
+                  <i class="fas fa-paper-plane fa-xs"></i>
+                  <strong>Email: philspickup.rdc@gmail.com</strong>
+                </span>
+              </p></a
+            >
           </div>
         </div>
       </div>
@@ -146,13 +141,13 @@
                   <br />
                   <span>
                     <a
-                      class="icon-space footer-text plain-link text-white"
+                      class="icon-space footer-text plain-link"
                       href="https://www.linkedin.com/in/luke-munsch-b4696020/"
                       target="_blank"
                       ><i class="fab fa-linkedin"></i> LinkedIn</a
                     >
                     <a
-                      class="icon-space footer-text plain-link text-white"
+                      class="icon-space footer-text plain-link"
                       href="https://github.com/lukemunsch"
                       target="_blank"
                       ><i class="fab fa-github-square"></i> Github</a
@@ -182,7 +177,7 @@
                     Location: Surrey ||
                     <a
                       href="https://www.facebook.com/philspickup.rdc"
-                      class="footer-text plain-link text-white"
+                      class="footer-text plain-link"
                       target="_blank"
                       ><i class="fab fa-facebook-square"></i>
                       Check This Out!
