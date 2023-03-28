@@ -100,8 +100,12 @@
         <!--quick info banner-->
         <div id="quick-banner" class="row bg-orange border border-dark">
           <div class="col-12 col-md-6 text-center my-auto">
-            <a href="tel:+447802181630" class="plain-link"
-              ><p class="my-1 big-banner">
+            <a
+              href="tel:+447802181630"
+              class="plain-link"
+              onclick="return confirm('Head to phone app?')"
+            >
+              <p class="my-1 big-banner">
                 <span class="banner-pad-r">
                   <i class="fas fa-phone-alt fa-xs"></i>
                   <strong>Call: +447802181630</strong>
@@ -114,6 +118,7 @@
             <a
               href="mailto:philspickup.rdc@gmail.com?subject='Enquiry_For_Phil'"
               class="plain-link"
+              onclick="return confirm('Head to E-mail app?')"
               ><p class="my-1 big-banner">
                 <span class="banner-pad-l">
                   <i class="fas fa-paper-plane fa-xs"></i>

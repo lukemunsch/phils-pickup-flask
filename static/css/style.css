@@ -263,6 +263,15 @@ footer {
     .custom-font {
         font-size: 100%;
     }
+    
+    .header-container {
+        height: 100px;
+        padding-top: 20px;
+    }
+
+    header {
+        position: static;
+    }
 }
 
 @media (max-width: 767px) {
@@ -270,10 +279,7 @@ footer {
         height: 100px;
     }
 
-    .header-container {
-        height: 100px;
-        padding-top: 20px;
-    }
+    
 
     header {
         position: static;
