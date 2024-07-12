@@ -10,12 +10,12 @@
 }
 
 .custom-font {
-    font-size: 200%;
+    font-size: 150%;
     letter-spacing: 2px;
 }
 
 .custom-font-small {
-    font-size: 150%;
+    font-size: 120%;
     letter-spacing: 1.2px;
 }
 
@@ -29,7 +29,7 @@
 }
 
 h1 {
-    font-size: 300%;
+    font-size: 250%;
 }
 
 .text-justify {
@@ -141,11 +141,14 @@ u {
 }
 
 a.nav-link {
+    color: #fff;
+    text-decoration: none;
     padding: 0rem .75rem;
 }
 
 a.nav-link:hover {
-    text-transform: uppercase;
+    text-decoration: underline;
+    text-underline-position: under;
 }
 
 .right-pad {
@@ -207,32 +210,6 @@ footer {
 }
 
 /* Misc bits */
-
-.call-btn {
-    position: absolute;
-    height: auto;
-    width: auto;
-    top: 0px;
-    right: 3px;
-    background-color: #e58100;
-    font-size: 130%;
-    text-transform: capitalize;
-    border-top: 0px;
-    border-color: #000;
-    border-radius: 0% 0% 8% 8%;
-    text-decoration: none;
-}
-
-.call-btn:hover {
-    background-color: #e58100;
-    border-color: #000;
-}
-
-.call-link {
-    color: #000;
-    cursor: pointer;
-    text-decoration: none;
-}
 
 .plain-link {
     color: white;
